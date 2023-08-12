@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 
-     <title>Ben's Resume - Profile HTML Page</title>
+     <title>Sidhartha's Resume - Profile</title>
 
      <meta charset="UTF-8">
      <meta http-equiv="X-UA-Compatible" content="IE=Edge">
@@ -22,6 +22,17 @@
 Tooplate 2120 Ben Resume
 https://www.tooplate.com/view/2120-ben-resume
 -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $(".smoothScroll").click(function(event) {
+            event.preventDefault();
+            $("html, body").animate({ scrollTop: $($(this).attr("href")).offset().top }, 800);
+        });
+    });
+</script>
+
 </head>
 
 <body data-spy="scroll" data-target="#navbarNav" data-offset="50">
@@ -49,12 +60,14 @@ https://www.tooplate.com/view/2120-ben-resume
                     </li>
 
                     <li class="nav-item">
-                        <a href="#testimonials" class="nav-link smoothScroll">Reviews</a>
+                        <a href="#accordionExample" class="nav-link smoothScroll">Projects</a>
                     </li>
 
                     <li class="nav-item">
                         <a href="#contact" class="nav-link smoothScroll">Contact</a>
                     </li>
+
+
                 </ul>
 
                 <div class="mt-lg-0 mt-3 mb-4 mb-lg-0">
@@ -79,10 +92,10 @@ https://www.tooplate.com/view/2120-ben-resume
                    <div class="d-flex flex-column justify-content-center align-items-center col-lg-7 col-md-7 col-12">
                         <div class="hero-text">
 
-                            <h1 class="hero-title">👋 Ben, a digital nomad</h1>
+                            <h1 class="hero-title">👋 Sidhartha A Data Scientist</h1>
 
                             <a href="#" class="email-link">
-                                hello@company.co
+                                sidharthmandal007@gmail.com
                             </a>
                           
                         </div>
@@ -98,20 +111,16 @@ https://www.tooplate.com/view/2120-ben-resume
             <div class="row">
 
                 <div class="col-lg-6 col-md-6 col-12">
-                    <h3 class="mb-4">This is Ben's Resume</h3>
+                    <h3 class="mb-4">Sidhartha's Resume</h3>
 
-                    <p>Ben Resume HTML Template is brought to you by <a rel="nofollow" href="https://www.tooplate.com" target="_parent">Tooplate website</a>. You can feel free to edit and use this page for your small site. You are allowed to use this HTML template for any kind of purpose.</p>
-
-                    <p>However, please do not re-distribute the downloadable template ZIP file on any template collection website. This is strongly prohibited. Please contact Tooplate for more information.</p>
-
+                    <p> Data Scientist with a demonstrated history (5+ years) of successfully leading business-critical data science projects for major organizations (Financial, Retail, hospitality domain). Expert in data science programming languages (R/Python/Spark), statistics and end-to-end machine learning techniques to build large-scale data pipelines, algorithms, and analytics applications. Ensures high quality with well-designed, cleanly coded, well-documented and operationally stable models. Proven success in utilizing expertise in large-scale computational architectures, deep learning framework, data visualization, and simulation to solve research challenges. Experienced with a demonstrated history of working in the higher education industry.</p>
+                    
                     <ul class="mt-4 mb-5 mb-lg-0 profile-list list-unstyled">
-                        <li><strong>Full Name :</strong> Ben Wilson </li>
+                        <li><strong>Full Name :</strong> Sidhartha Sankar Mondal</li>
 
-                        <li><strong>Date of Birth:</strong> 26 September 1999</li>
+                        <li><strong>Date of Birth:</strong> 21 August 1994</li>
 
-                        <li><strong>Website :</strong> company.co</li>
-
-                        <li><strong>Email :</strong> hello@company.co</li>
+                        <li><strong>Email :</strong> sidharthmandal007@gmail.com</li>
                     </ul>
                 </div>
 
@@ -121,191 +130,134 @@ https://www.tooplate.com/view/2120-ben-resume
 
             </div>
             <div class="row about-third">
+            	
+              <h3>Professional Summary</h3>
+              <p>
+                  • Proficient in Docker and AWS Elastic Container Registry for scalable application deployment. <br>
+                  • Designed serverless ETL processes using AWS Lambda, REST APIs, and Redshift Database. <br>
+                  • Expertise in AWS services including State Machines, Event Bridge, Lambda, SageMaker, Kubernetes. <br>
+                  • Led advanced text classification using BERT, ROBERTA, XLM models. <br>
+                  • Managed big data platforms like Cloudera, Impala, Hive. <br>
+                  • Strong coding skills in Python, R, and GIT for codebase management. <br>
+                  • Utilized libraries: Scikit-learn, TensorFlow, PyTorch, OpenCV, HuggingFace. <br>
+                  • Implemented Time Series Forecasting (ARIMA, Prophet) for financial planning. <br>
+                  • Solid grasp of Linear Algebra, Statistics, Probability. <br>
+                  • Proficient in Power BI for data visualization. <br>
+                  • Applied classical models: KNN, EM Clustering, Random Forest. <br>
+                  • Delivered projects within Sprint Models meeting tight deadlines. <br>
+                  • Blend of image processing, object detection, and cloud deployment skills.
+              </p>
+            </div>
+            <div class="row about-third">
+              <h3>SKILL SET</h3>
+              <br>
+              <p>
+                  •	Programming Languages: PYTHON, R, DAX, SQL <br>
+                  •	Machine Learning and Deep Learning Libraries: Scikit learn 
+                    NLTK, NumPy, Pandas, TensorFlow, keras, Scipy, Matplotlib, 
+                    PCA, OpenCV, Ultralytics, SpaCy, NetworkX,, Seaborn, Plotly 
+                    RASA, Caret, forecast
+                  •	Image Processing: Open Cv, PIL <br>
+                  •	Databases and Version Control: MySQL, PostgreSQL
+                    NoSQL (MongodB), GitHub, Elasticsearch <br>
+                  •	Big Data: Apache Spark  (Pyspark, Hive, MLlib, Impala) <br>
+                  •	Cloud: AWS Sagemaker, AWS Lambda, AWS rest api, AWS EC2 
+                    Elastic Kubernetes service, Elastic Container Registry,
+                    LightSail, CloudFront, event Bridge, State machines, Docker. <br>
+                  •	Data Visualization: PowerBi , Tableau <br>
+                  •	Data Science Platforms: Dataiku, alteryx <br>
+                </p>
+            </div>
+            <div class="row about-third">
+              <h3>EDUCATION</h3>
+              <br>
+              <p>
+                •	Graduate Certificate Advanced AI solution development George Brown College Toronto Canada 2023  Present <br>
+                •	PG Diploma Business Analytics Praxis Business School Kolkata India 2018 <br>
+                •	BTECH Computer Science APJ Abdul kalam technical university Uttar Pradesh Ghaziabad 2016 <br>               
+                </p>
+            </div>
+            <div class="row about-third">
             	<div class="col-lg-4 col-md-4 col-12">
-                <h3>Integer volutpat</h3>
-                <p>Sed eu risus tincidunt, finibus dolor non, gravida ex. Donec lacinia mi nec erat tempus, vel consectetur ante scelerisque. Ut blandit, risus in venenatis ultricies, lacus tellus fermentum.</p>
+                <h6>SENIOR DATA SCIENTIST <br> BLOOM HOTEL GROUP <br> (Nov/2021 - Dec/2022)</h6>
+                <p>Led development of advanced intent-based chatbot using RASA, enhancing guest experience. Executed image classification projects for room cleaning and quality assurance. Designed ML-based forecasts for footfall, inventory, and budgets in hospitality, reporting directly to investors and directors.</p>
                 </div>
                 <div class="col-lg-4 col-md-4 col-12">
-                <h3>Mauris semper</h3>
-                <p>Cras et nisl vestibulum, accumsan elit sed, pretium enim. Vestibulum in condimentum magna. Maecenas quam magna, iaculis eu turpis et, commodo pulvinar leo.</p>
+                <h6>SENIOR ASSOCIATE DATA SCIENCE GROUP <br>AFFINE ANALYTICS<br>(Sep/2020 - Oct/2021)</h6>
+                <p>Analyzed business needs, developed POCs for clients, and facilitated direct client interactions. Formulated and managed data-driven projects to advance business interests, utilizing advanced statistical methods to derive actionable insights. Created ML pipelines for data cleaning, model development, and validation, contributing to informed business strategies.</p>
                 </div>
                 <div class="col-lg-4 col-md-4 col-12">
-                <h3>Integer id neque</h3>
-                <p>Duis at mollis leo, venenatis congue ex. Cras urna dui, gravida euismod lectus et, cursus tempor nulla. Praesent at turpis quis ex tristique gravida quis eget eros.</p>
+                <h6>DATA SCIENTIST II <br>ALUMNUS SOFTWARE LIMITED <br>(Nov/2018 - Aug/2020)</h6>
+                <p>Analyzed business needs, defined ML problem statements, and conducted statistical modeling. Utilized ML techniques for classification, regression, optimization, and clustering. Performed data exploration, analyzed results, and created visualizations with Power BI. Reported directly to CEO and CTO, managing multiple clients within tight sprint timelines.</p>
                 </div>
             </div>
+
         </div>
     </section>
 
 
     <!-- TESTIMONIAL -->
-     <section class="testimonials section-padding" id="testimonials">
-          <div class="container">
-               <div class="row">
-
-                    <div class="col-12">
-                        <h3 class="mb-5 text-center">What People say</h3>
-
-                        <div class="owl-carousel owl-theme" id="testimonials-carousel">
-                            <div class="item">
-                                <div class="testimonials-thumb d-flex">
-                                    <div class="testimonials-image">
-                                        <img src="images/testimonials/testimonial-image01.jpg" class="img-fluid" alt="testimonials image">
-                                    </div>
-
-                                    <div class="testimonials-info">
-                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
-
-                                        <h6 class="mb-0">Ben</h6>
-                                        <span>Art Director</span>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="item">
-                                <div class="testimonials-thumb d-flex">
-                                    <div class="testimonials-image">
-                                        <img src="images/testimonials/testimonial-image02.jpg" class="img-fluid" alt="testimonials image">
-                                    </div>
-
-                                    <div class="testimonials-info">
-                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
-
-                                        <h6 class="mb-0">Marie</h6>
-                                        <span>Marketing Consultant</span>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="item">
-                                <div class="testimonials-thumb d-flex">
-                                    <div class="testimonials-image">
-                                        <img src="images/testimonials/testimonial-image03.jpg" class="img-fluid" alt="testimonials image">
-                                    </div>
-
-                                    <div class="testimonials-info">
-                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
-
-                                        <h6 class="mb-0">Jen</h6>
-                                        <span>Product Manager</span>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="item">
-                                <div class="testimonials-thumb d-flex">
-                                    <div class="testimonials-image">
-                                        <img src="images/testimonials/testimonial-image04.jpg" class="img-fluid" alt="testimonials image">
-                                    </div>
-
-                                    <div class="testimonials-info">
-                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
-
-                                        <h6 class="mb-0">Wilson</h6>
-                                        <span>Web Developer</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-
-               </div>
-          </div>
-     </section>
-
+     
 
      <!-- FAQ -->
-     <section class="faq section-padding">
+     <section class="faq section-padding",id="#project">
         
-        <div class="container">
+        <div class="container",id="#project">
             
-            <div class="row">
+            <div class="row"m>
 
                 <div class="col-lg-12 col-12">
 
-                    <h3 class="mb-5">Frequently Asked Questions</h3>
+                    <h3 class="mb-5">Projects worked and Deployed in Production</h3>
 
                     <div class="accordion" id="accordionExample">
                       <div class="card">
                         <div class="card-header" id="headingOne">
                           <h2 class="mb-0">
                             <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                              Are those HTML templates absolutely free for any kind of usage?
+                              Custom LLM ChatBot - George Brown College Canada 
                             </button>
                           </h2>
                         </div>
 
                         <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
                           <div class="card-body">
-                            <p>Yes, they are 100% free and there is no hidden charge.</p>
-
-                            <p>They can be used for your commercial websites.</p>
+                            <p>Tech Used: Python, Pinecone, NLP <br>
+                              Role: Machine Learning Engineer <br>
+                              Dev Tool: VS Code <br>
+                              Developed a mechanism to create a large language model from 100s of pdf. Current LLM faces issues with context loss and hallucinations. Hence, we devised a architecture using vector embeddings to solve it. The project in POC stage achieved superior performance and maintained the contexts.<br> 
+                               Responsibilities:<br>
+                              •	Built state of the art custom chunker module which was used to create knowledge base of the system, based on this knowledge base question answers were created. <br>
+                              •	Create API around pinecone library to create and update the vector database.<br>
+                              •	Trained LLM with the knowledge base created in batches. <br>
+                              •	Created post methods which can find the most relevant context from the vector database. <br>
+                              </p>
                           </div>
                         </div>
                       </div>
-
-                      <div class="card">
-                        <div class="card-header" id="headingTwo">
-                          <h2 class="mb-0">
-                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                              Can I use them as a CMS theme or a part of website builder?
-                            </button>
-                          </h2>
-                        </div>
-                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                          <div class="card-body">
-                            <p>Yes, you can use them.</p>
+                      <div class="accordion" id="accordionExample">
+                        <div class="card">
+                          <div class="card-header" id="headingOne">
+                            <h2 class="mb-0">
+                              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Preventive action type classification - Affine Analytics 
+                              </button>
+                            </h2>
+                          </div>
+  
+                          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                            <div class="card-body">
+                              <p>Tech Used: Python, Cloudera, SQL, HuggingFace, Bert, Roberta, XLM <br>
+                                Dev Tool: VS code, cloudera Data Platform<br>
+                                Cargill have multiple factories across the globe, each factory/entity generates a request which is further tagged into a particular department which takes up the work and completes it. The task was to tag the description given in a request to appropriate department
+                                Responsibilities:<br>
+                                •	Data collection from CDP and building pipeline to pull data, pre-process and upload the data into the CDP.<br>
+                                •	Implemented pretrained language models to translate languages. Opusmt and facbook’s MBART Implemented BERT and multilingual Bert based models to finetune the model with the data <br>
+                                •	The results achieved is close to 80% accuracy for a multi class problem. Implemented the job which runs automatically in CDSW and pushes the code in Impala.<br>
+                                </p>
+                            </div>
                           </div>
                         </div>
-                      </div>
-
-                      <div class="card">
-                        <div class="card-header" id="headingThree">
-                          <h2 class="mb-0">
-                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                              I cannot find a suitable HTML template. Can I request new template?
-                            </button>
-                          </h2>
-                        </div>
-                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                          <div class="card-body">
-                            <p>Yes, please tell us what you need. We will try our best to fulfill it.</p>
-                          </div>
-                        </div>
-                      </div>
-
-                    <div class="card">
-                        <div class="card-header" id="headingFour">
-                          <h2 class="mb-0">
-                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                              Can I redistribute your templates?
-                            </button>
-                          </h2>
-                        </div>
-                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
-                          <div class="card-body">
-                            <p>No, this is totally NOT allowed. Please do not redistribute our HTML templates.</p>
-                          </div>
-                        </div>
-                    </div>
-
-                    <div class="card">
-                        <div class="card-header" id="headingFive">
-                          <h2 class="mb-0">
-                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                              How do I support Tooplate?
-                            </button>
-                          </h2>
-                        </div>
-                        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
-                          <div class="card-body">
-                            <p>Please spread a word about Tooplate website to your colleagues and friends.</p>
-                          </div>
-                        </div>
-                    </div>
-
-                    <span class="faq-info-text">Please send us a message if you have anything to say. Send an email message to <strong>contact (at) tooplate (dot) com</strong></span>
 
                 </div>
 
@@ -347,11 +299,11 @@ https://www.tooplate.com/view/2120-ben-resume
             <div class="mx-auto col-lg-4 col-md-6 col-12">
                 <h3 class="my-4 pt-4 pt-lg-0">Say hello</h3>
 
-                <p class="mb-1">010-020-0340</p>
+                <p class="mb-1">+1 4374505938 , +91 9038535938</p>
 
                 <p>
                     <a href="#">
-                        hello@company.co
+                        sidharthmandal007@gmail.com
                     <i class="fas fa-arrow-right custom-icon"></i>
                     </a>
                 </p>
@@ -364,14 +316,15 @@ https://www.tooplate.com/view/2120-ben-resume
                     <li><a href="#" rel="noopener" class="fab fa-youtube"></a></li>
                 </ul>
                 
-              <p class="copyright-text mt-5 pt-3">Copyright &copy; 2020 Ben Resume Page</p>
-                
-                <p>Design: <a href="https://www.tooplate.com" title="free HTML templates" target="_blank">Tooplate</a></p>
             </div>
 
         </div>
       </div>
     </section>
+
+
+
+
      <!-- SCRIPTS -->
      <script src="js/jquery.min.js"></script>
      <script src="js/bootstrap.min.js"></script>
